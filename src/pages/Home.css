@@ -1,0 +1,22 @@
+:root {
+  --grey: #f4f4f4;
+}
+body {
+  background-color: var(--grey);
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+}
+.search {
+  text-align: center;
+}
+.search-bar {
+  height: 26px;
+  margin: 20px auto 20px auto;
+  width: 200px;
+  border-radius: 5px;
+  padding: 0 10px;
+}
