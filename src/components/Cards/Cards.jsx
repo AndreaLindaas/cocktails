@@ -12,12 +12,12 @@ export default function Cards (){
 
 const renderCocktails=()=>{
     return cocktails.map((cocktail,index)=>{
-        return(<div key={index} className="cards"><div className="card"><li >
+        return(<li key={index} >
             <img src={cocktail.strDrinkThumb} />
-            <div>
-            {cocktail.strDrink}</div></li></div></div>)
+            <span>
+            {cocktail.strDrink}</span></li>)
     })
 }
 
-    return(<ul>{renderCocktails()}</ul>)
+    return(<ul className="cocktails">{renderCocktails()}</ul>)
 }
