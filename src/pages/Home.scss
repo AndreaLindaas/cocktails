@@ -1,5 +1,9 @@
 :root {
   --grey: #f4f4f4;
+  --orange: #ffa500;
+  --darkorange: #ff8c00;
+  --green: #268d49a8;
+  --red: #ff0000;
 }
 body {
   background-color: var(--grey);
@@ -24,10 +28,25 @@ h1 {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   list-style-type: none;
+  
+  li{
+    background-color:var(--green) ;
+    width: 200px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    
+  }
   img{
     width: 200px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
   }
   span{
     display: block;
+    text-align: center;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 20px;
+    
   }
 }
