@@ -14,6 +14,9 @@ const renderCocktails=()=>{
     return cocktails.map((cocktail,index)=>{
         return(<li key={index} >
             <img src={cocktail.strDrinkThumb} />
+            <div>{
+        cocktail.strAlcoholic != "Alcoholic" ? cocktail.strAlcoholic : ""
+      }</div>
             <span>
             {cocktail.strDrink}</span></li>)
     })
